@@ -6,6 +6,7 @@ class IndexController extends Controller {
         for($i = 0;$i <= 10; $i++){
             echo $i . '<br />';
         }
+        $this->assgin('i',$i);
         $this->display();
     }
 }
